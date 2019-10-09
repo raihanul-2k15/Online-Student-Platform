@@ -1,0 +1,31 @@
+.text-container {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.column h3 {
+	margin:0 10px;
+	font-size: 22px;
+}
+
+.main-content ol, ul {
+	font-size: 18px;
+}
+
+.main-content ol {
+	list-style-image: url("../img/ol-marker.png");
+}
+
+.main-content ul {
+	list-style-image: url("../img/ul-marker.png");
+}

@@ -1,0 +1,82 @@
+.ref-tile {
+	display: inline-block;
+	border: 1px dotted black;
+	margin: 2px;
+	padding: 0px;
+	width: 225px;
+	height: 202.5px;
+
+	height: 52px;
+	font-size:14px;
+
+	text-decoration: none;
+	color: inherit;
+}
+
+.ref-tile div {
+	background-color: #11777764;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* for thread search resulots */
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+tr:nth-child(odd) {
+	background-color: #09080688;
+}
+
+tr:nth-child(even) {
+	background-color: #46454388;
+}
+
+tr:first-child {
+	background-color: black;
+}
+
+td, th {
+	text-align: center;
+	padding: 20px;
+	width: 10%;
+}
+
+td:first-child, th:first-child {
+	width: 50%;
+	text-align: left;
+}
+
+td:last-child, th:last-child {
+	width: 20%;
+}
+
+td a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* user search results */
+
+table#users-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table#users-table td, table#users-table th {
+	text-align: center;
+	padding: 20px;
+	widtH: 10%;
+}
+
+.own-dept {
+	background-color: #bfff0044;
+}
+
+.own-thread {
+	background-color: #ff000044;
+}

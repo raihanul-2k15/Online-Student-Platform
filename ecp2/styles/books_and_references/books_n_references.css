@@ -1,0 +1,154 @@
+.modal {
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: #76767600;
+	visibility: hidden;
+	z-index:  1;
+	transition: opacity 0.5s, background-color 0.5s, visibility 0s ease 0.5s;
+}
+
+#ref_detailDialog {
+	background-color: #161513df;
+	color: #e5e4d7;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	font-size: 18px;
+	margin: 50px auto;
+	width: 800px;
+	height: 900px;
+	transition: transform 0.5s;
+}
+
+#ref_detailDialog img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+#ref_detailDialog a {
+	color: white;
+}
+
+.ref-tile {
+	display: inline-block;
+	border: 1px dotted black;
+	margin: 2px;
+	padding: 0px;
+	width: 225px;
+	height: 202.5px;
+	text-align: center;
+}
+
+.ref-add-tile {
+	display: inline-block;
+	border: 1px dotted black;
+	margin: 2px;
+	padding: 0px;
+	width: 225px;
+	height: 202.5px;
+	text-align: center;
+}
+
+.img-container {
+	margin: 0 auto;
+	padding: 2px;
+	width: 120px;
+	height: 150px;
+	background-color: black;
+}
+
+.detail-container {
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 0;
+	height: 52px;
+	background-color: black;
+	color:white;
+	overflow: hidden;
+	font-size:14px;
+}
+
+.img-container img {
+	cursor: pointer;
+	width: 120px;
+	height: 150px;
+	opacity: 1.0;
+}
+
+.img-container img:hover {
+	opacity: 0.4;
+}
+
+.side-left {
+	max-height: 740px;
+	overflow-y: scroll;
+	color: white;
+	margin: 0;
+	margin-top: 0;
+	padding: 0;
+	border-radius: 5px;
+	width: 220px;
+	float: left;
+	background-color: black;
+}
+
+.side-left p {
+	font-family: Arial;
+	font-size: 22px;
+	margin: 10px;
+}
+
+.side-left ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+.side-left ul li {
+	border-top: 1px solid white;
+
+}
+
+.side-left ul li a {
+	display:block;
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+	line-height: 40px;
+	margin: 0;
+	padding-left: 20px;
+	padding-right:5px;
+	height: 40px;
+	text-decoration: none;
+	transition-duration: 0.25s;
+}
+
+.side-left ul li a:hover {
+	background-color: red;
+}
+
+.main-beside_side-left {
+	min-height: 700px;
+	margin-left: 220px;
+}
+
+form {
+	width: 500px;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=url], select {
+	font-size: 18px;
+	width: 480px;
+}
+
+input[type=submit], button {
+	font-size: 22px;
+	width: 150px;
+}

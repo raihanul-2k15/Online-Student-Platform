@@ -1,0 +1,208 @@
+body  {
+	background-color: #161513;       /*#FFCF79 = yelloish background */
+	font-family: Verdana,Arial;
+	margin:0;
+	font-size:14px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.page-header, .page-footer {
+	color:black;
+	margin:0;
+	padding:10px;
+}
+
+.page-header {
+	position: relative;
+	background: linear-gradient(#676780 50%, #161513 50%);
+}
+
+.page-footer {
+	height: 50px;
+	text-align: center;
+	background: linear-gradient(#161513, #9d9d9d 75%);
+	color: black;
+}
+
+.page-header .homepage-link {
+	margin-left: 10px;
+}
+
+.page-header .homepage-link img {
+	height: 10%;
+	width: 10%;
+}
+
+.page-header h1{
+	display: inline;
+	vertical-align: top;
+}
+
+.page-nav {
+	background-color: #1b253f;
+	margin: 0;
+	height: 43px;
+}
+
+.page-nav ul {
+	list-style:none;
+	margin: 0;
+	padding:0;
+}
+
+.page-nav ul li {
+	display:block;
+	float: left;
+	margin: 0px;
+	padding: 5px 0;
+	border-right: 1px solid white;
+	font-size:150%;
+	font-family:Arial;
+}
+
+.page-nav ul li span {
+	margin: 0;
+	padding: 0.4em 1em;
+	color:gray;
+}
+
+.page-nav ul li a {
+	text-decoration:none;
+	margin: 0;
+	padding: 0.4em 1em;
+	color:white;
+	transition-duration:0.5s;
+}
+
+.page-nav ul li a:hover {
+	background-color:#e5e4d7;
+	color:black;
+}
+
+.main-content {
+	margin:0;
+	background-color: #161513;
+	color: #e5e4d7;
+	padding: 20px;
+	border-radius:5px;
+	min-height: 600px;
+}
+
+@media (max-width: 480px) {
+	body {
+		width:100%;
+	}
+}
+
+h2.section-title {
+	color:yellow;
+}
+
+h2#caption {
+	color:yellow;
+	text-align: center;
+}
+
+/* ------------- For login, register and logout buttons ----------*/
+.header-username {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px;
+	font-size: 14px;
+}
+
+a.blue-btn, a.green-btn, a.red-btn {
+	display: block;
+	float: right;
+	margin: 10px;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	font-size: :14px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+}
+
+.blue-btn {
+	background-color: #357ae8;
+}
+.green-btn {
+	background-color: green;
+}
+.red-btn {
+	background-color: #f22e2e;
+}
+.yellow-btn {
+	background-color: yellow;
+}
+
+
+/* ------------- For Forms -------------*/
+
+form {
+	border: 2px solid #222222;
+	box-shadow: 10px 10px 10px #65ebf2, -10px -10px 10px #65ebf2, -10px 10px 10px #65ebf2, 10px -10px 10px #65ebf2;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+select {
+	-ms-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box; 
+	box-sizing:content-box;
+}
+
+textarea {
+    background-color: #454442A0;
+    color: #e5e4d7;
+    border-radius: 5px;
+    border-width:0;
+    margin: 10px 0;
+    padding: 5px;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 14px;
+    box-shadow: inset 2.5px 2.5px 5px rgba(0, 0, 0, 0.5), inset -2.5px -2.5px 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type=text], input[type=password], input[type=number], input[type=url], input[type=email], select {
+	background-color: #454442A0;
+	color: #e5e4d7;
+	font-size: 18px;
+	border-radius: 5px;
+	border-width: 0;
+	margin: 10px 0;
+	padding: 5px;
+	box-shadow: inset 2.5px 2.5px 5px rgba(0, 0, 0, 0.5), inset -2.5px -2.5px 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type=submit], button {
+	display:block;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 22px;
+    font-weight: bold;
+    /* background: linear-gradient(#dedede 20%, #545454, #232323 ); */
+    background-color: #fb0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, button:hover {
+    background: linear-gradient(#dedede 20%, #8c8c8c, #454545 );
+}
+input[type=submit]:active, button:active {
+    background: linear-gradient(#232323 20%, #545454, #dedede );
+}
+
+button:disabled, button:hover:disabled, button:active:disabled{
+	background: none;
+	background-color: gray;
+	color: black;
+}

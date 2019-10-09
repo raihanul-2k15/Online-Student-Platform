@@ -1,0 +1,31 @@
+form {
+    width: 570px;
+}
+
+input[type=checkbox] {
+    margin: 10px 0;
+}
+
+input[type=checkbox]:checked {
+    background-color: blue;
+}
+
+input[type=checkbox]:disabled+label {
+    color: gray;
+}
+
+input[type=text] {
+    font-size: 18px;
+    width: 550px;
+}
+
+textarea {
+    font-size: 14px;
+    width: 550px;
+    height: 200px;
+}
+
+input[type=submit] {
+    font-size: 22px;
+    width: 150px;
+}

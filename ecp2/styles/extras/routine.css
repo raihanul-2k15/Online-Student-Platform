@@ -1,0 +1,43 @@
+form {
+	width: 430px;
+	box-shadow: none;
+}
+
+select {
+	width: 200px;
+	font-size: 18px;
+}
+
+table {
+	width: 1000px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 2px solid black;
+	color: black;
+}
+
+td, th {
+	border: 2px solid black;
+	text-align:  center;
+	height: 40px;
+}
+
+tr:nth-child(even) {
+	background-color: silver;
+}
+
+tr:nth-child(odd) {
+	background-color: #888888;
+}
+
+td {
+	font-size: 18px;
+	font-weight: bold;	
+	padding: 10px;
+}
+
+th {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #e5e4d7;
+	padding: 5px;
+}

@@ -1,0 +1,13 @@
+form {
+	width: 350px;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=email], select {
+	font-size: 18px;
+	width: 330px;
+}
+
+input[type=submit] {
+	font-size: 22px;
+	width: 150px;
+}

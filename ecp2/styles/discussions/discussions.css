@@ -1,0 +1,100 @@
+table {
+	width: 95%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+tr:nth-child(odd) {
+	background-color: #09080688;
+}
+
+tr:nth-child(even) {
+	background-color: #46454388;
+}
+
+tr:first-child {
+	background-color: black;
+}
+
+td, th {
+	text-align: center;
+	padding: 20px;
+	widtH: 10%;
+}
+
+td:first-child, th:first-child {
+	width: 50%;
+	text-align: left;
+}
+
+td:last-child, th:last-child {
+	width: 20%;
+}
+
+td a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.own-dept {
+	background-color: #bfff0044;
+}
+
+.own-thread {
+	background-color: #ff000044;
+}
+
+/* view threads page */
+
+.thread-container, .post-container {
+	width: 80%;
+	margin: 20px auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.thread-container small {
+	float: right;
+	text-align: right;
+}
+
+.post-container .details-pane {
+	margin: 0;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.post-container .message-pane {
+	margin: 0;
+	width: 80%;
+	float: right;
+	font-size: 20px
+}
+
+form {
+	margin: 20px auto;
+	width: 80%;
+}
+
+form input[type="text"] {
+	width: 100%;
+	font-size: 18px;
+}
+
+form textarea {
+	display: block;
+	width: 100%;
+	height: 200px;
+	font-size: 18px;
+	margin: 10px auto;
+}
+
+form input[type="submit"] {
+	width: 200px;
+	margin: 0;
+}
